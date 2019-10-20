@@ -11,7 +11,8 @@
 
 
 
-void fibonacci(uint32_t output_array[], uint32_t size, uint32_t min_value){
+void fibonacci(uint32_t output_array[], uint32_t size, uint32_t min_value)
+{
 /*
  * Tester si l'utilisateur donne des nombres negatifs
  */
@@ -20,11 +21,12 @@ void fibonacci(uint32_t output_array[], uint32_t size, uint32_t min_value){
 		exit(1);
 	}
 	if(size < 2)
-		output_array[1] = min_value;
+		output_array[1] = min_value;//si la taille est "1" on retourne le nombre
 	else{
 
 		uint32_t p, d;
-			p = min_value; d = min_value + 1;
+			p = min_value;// p le premier element du tableau
+			d = min_value + 1;//d le deuxième element du tableau
 
 			output_array[0] = p;
 			output_array[1] = d;
@@ -34,10 +36,6 @@ void fibonacci(uint32_t output_array[], uint32_t size, uint32_t min_value){
 
 				output_array[i] = output_array[i-2] + output_array[i-1];
 			}
-
 	}
 
-	uint32_t j = 0;
-	for( j = 0; j < size; j++)
-		printf("%d : %d\n", j+1, output_array[j]);
 }

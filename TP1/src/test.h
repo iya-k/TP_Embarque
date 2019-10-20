@@ -9,9 +9,9 @@
 #define TEST_H_
 
 #include <stdint.h>
+#include <stdio.h>
 
-test();
-//uint32_t test(const char * test_name, uint32_t test_id, int32_t time);
+void test();
 
 
 #endif /* TEST_H_ */

@@ -11,8 +11,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
+#include <asm-leon/timer.h>
 #include "fibo.h"
 #include "test.h"
+#include "display_fibo.h"
 
 
 #endif /* TP1_H_ */
