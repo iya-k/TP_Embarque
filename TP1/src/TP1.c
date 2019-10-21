@@ -11,7 +11,7 @@
 #include "tp1.h"
 
 #define FIBO_SIZE 5
-#define MIN_VALUE 0
+#define MIN_VALUE 5
 
 uint32_t output_array[FIBO_SIZE];// __attribute__ ((section (".bss_output_array")));
 

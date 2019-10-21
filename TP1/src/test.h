@@ -11,7 +11,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-void test();
+void test(void);
 
 
 #endif /* TEST_H_ */

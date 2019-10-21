@@ -8,7 +8,7 @@
 #include "test.h"
 
 
-void test(){
+void test(void){
 	;
 }
 
