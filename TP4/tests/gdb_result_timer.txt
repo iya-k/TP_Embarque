@@ -1,0 +1,346 @@
+0x400193ac in _ISR_Handler_initialization ()
+    at /opt/rtems-4.10-mingw/src/rtems-4.10/c/src/../../cpukit/score/src/isr.c:51
+51	  if ( !_Stack_Is_enough(Configuration.interrupt_stack_size) )
+Loading section .text, size 0x2c520 lma 0x40000000
+Loading section .data, size 0x17c0 lma 0x4002c520
+Loading section .jcr, size 0x4 lma 0x4002dce0
+Start address 0x40000000, load size 187620
+Transfer rate: 1500960 bits in <1 sec, 509 bytes/write.
+Hardware assisted breakpoint 1 at 0x40001364: file ../src/TP4.c, line 207.
+Function "main" not defined.
+
+Breakpoint 1, breakPoint (time=12) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 12
+
+ Cycles       :   6961271
+ Instructions :   3778661
+ Overall CPI  :      1.84
+
+ CPU performance (50.0 MHz)  :  27.14 MOPS (27.14 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.1 % (inst: 96.1, data: 95.6)
+ AHB bandwidth utilisation   :   37.3 % (inst: 22.5, data: 14.8)
+ Simulated time              : 139.23 ms
+ Processor utilisation       : 100.00 %
+ Real-time performance       :  74.06 %
+ Simulator performance       :  20.10 MIPS
+ Used time (sys + user)      :   0.19 s
+
+
+Breakpoint 1, breakPoint (time=60) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 60
+
+ Cycles       :  31147127
+ Instructions :   6894134
+ Overall CPI  :      1.81
+
+ CPU performance (50.0 MHz)  :  27.63 MOPS (27.63 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.5 % (inst: 96.5, data: 96.9)
+ AHB bandwidth utilisation   :   14.5 % (inst:  8.5, data:  6.0)
+ Simulated time              : 622.94 ms
+ Processor utilisation       :  40.05 %
+ Real-time performance       : 158.11 %
+ Simulator performance       :  17.50 MIPS
+ Used time (sys + user)      :   0.39 s
+
+
+Breakpoint 1, breakPoint (time=110) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 110
+
+ Cycles       :  56147617
+ Instructions :  10010086
+ Overall CPI  :      1.80
+
+ CPU performance (50.0 MHz)  :  27.82 MOPS (27.82 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.6 % (inst: 96.6, data: 97.3)
+ AHB bandwidth utilisation   :   11.4 % (inst:  6.6, data:  4.8)
+ Simulated time              :   1.12 s
+ Processor utilisation       :  32.04 %
+ Real-time performance       : 187.78 %
+ Simulator performance       :  16.74 MIPS
+ Used time (sys + user)      :   0.60 s
+
+
+Breakpoint 1, breakPoint (time=160) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 160
+
+ Cycles       :  81143680
+ Instructions :  13123980
+ Overall CPI  :      1.79
+
+ CPU performance (50.0 MHz)  :  27.92 MOPS (27.92 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.7 % (inst: 96.6, data: 97.5)
+ AHB bandwidth utilisation   :   10.2 % (inst:  5.9, data:  4.3)
+ Simulated time              :   1.62 s
+ Processor utilisation       :  28.96 %
+ Real-time performance       : 195.29 %
+ Simulator performance       :  15.79 MIPS
+ Used time (sys + user)      :   0.83 s
+
+
+Breakpoint 1, breakPoint (time=210) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 210
+
+ Cycles       : 106152237
+ Instructions :  16244337
+ Overall CPI  :      1.79
+
+ CPU performance (50.0 MHz)  :  27.99 MOPS (27.99 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.7 % (inst: 96.7, data: 97.7)
+ AHB bandwidth utilisation   :    9.6 % (inst:  5.5, data:  4.1)
+ Simulated time              :   2.12 s
+ Processor utilisation       :  27.34 %
+ Real-time performance       : 205.52 %
+ Simulator performance       :  15.73 MIPS
+ Used time (sys + user)      :   1.03 s
+
+
+Breakpoint 1, breakPoint (time=260) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 260
+
+ Cycles       : 131150382
+ Instructions :  19363392
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.03 MOPS (28.03 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 97.8)
+ AHB bandwidth utilisation   :    9.2 % (inst:  5.3, data:  4.0)
+ Simulated time              :   2.62 s
+ Processor utilisation       :  26.34 %
+ Real-time performance       : 212.05 %
+ Simulator performance       :  15.65 MIPS
+ Used time (sys + user)      :   1.24 s
+
+
+Breakpoint 1, breakPoint (time=310) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 310
+
+ Cycles       : 156150560
+ Instructions :  22483154
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.06 MOPS (28.06 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 97.8)
+ AHB bandwidth utilisation   :    9.0 % (inst:  5.1, data:  3.8)
+ Simulated time              :   3.12 s
+ Processor utilisation       :  25.65 %
+ Real-time performance       : 219.00 %
+ Simulator performance       :  15.77 MIPS
+ Used time (sys + user)      :   1.43 s
+
+
+Breakpoint 1, breakPoint (time=360) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 360
+
+ Cycles       : 181151031
+ Instructions :  25602524
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.09 MOPS (28.09 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 97.9)
+ AHB bandwidth utilisation   :    8.8 % (inst:  5.0, data:  3.8)
+ Simulated time              :   3.62 s
+ Processor utilisation       :  25.16 %
+ Real-time performance       : 220.51 %
+ Simulator performance       :  15.58 MIPS
+ Used time (sys + user)      :   1.64 s
+
+
+Breakpoint 1, breakPoint (time=410) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 410
+
+ Cycles       : 206149779
+ Instructions :  28720767
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.11 MOPS (28.11 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 97.9)
+ AHB bandwidth utilisation   :    8.6 % (inst:  4.9, data:  3.7)
+ Simulated time              :   4.12 s
+ Processor utilisation       :  24.78 %
+ Real-time performance       : 225.42 %
+ Simulator performance       :  15.70 MIPS
+ Used time (sys + user)      :   1.83 s
+
+
+Breakpoint 1, breakPoint (time=460) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 460
+
+ Cycles       : 231153064
+ Instructions :  31840970
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.12 MOPS (28.12 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.8, data: 98.0)
+ AHB bandwidth utilisation   :    8.5 % (inst:  4.9, data:  3.7)
+ Simulated time              :   4.62 s
+ Processor utilisation       :  24.49 %
+ Real-time performance       : 227.62 %
+ Simulator performance       :  15.68 MIPS
+ Used time (sys + user)      :   2.03 s
+
+
+Breakpoint 1, breakPoint (time=510) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 510
+
+ Cycles       : 256152409
+ Instructions :  34960956
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.13 MOPS (28.13 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.8, data: 98.0)
+ AHB bandwidth utilisation   :    8.4 % (inst:  4.8, data:  3.6)
+ Simulated time              :   5.12 s
+ Processor utilisation       :  24.26 %
+ Real-time performance       : 231.18 %
+ Simulator performance       :  15.78 MIPS
+ Used time (sys + user)      :   2.22 s
+
+
+Breakpoint 1, breakPoint (time=560) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 560
+
+ Cycles       : 281150835
+ Instructions :  38080368
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.14 MOPS (28.14 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.8, data: 98.0)
+ AHB bandwidth utilisation   :    8.4 % (inst:  4.8, data:  3.6)
+ Simulated time              :   5.62 s
+ Processor utilisation       :  24.06 %
+ Real-time performance       : 231.11 %
+ Simulator performance       :  15.65 MIPS
+ Used time (sys + user)      :   2.43 s
+
+
+Breakpoint 1, breakPoint (time=610) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 610
+
+ Cycles       : 306149027
+ Instructions :  41197872
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.15 MOPS (28.15 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.8, data: 98.0)
+ AHB bandwidth utilisation   :    8.3 % (inst:  4.7, data:  3.6)
+ Simulated time              :   6.12 s
+ Processor utilisation       :  23.90 %
+ Real-time performance       : 232.46 %
+ Simulator performance       :  15.64 MIPS
+ Used time (sys + user)      :   2.63 s
+
+
+Breakpoint 1, breakPoint (time=660) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 660
+
+ Cycles       : 331148958
+ Instructions :  44315345
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.16 MOPS (28.16 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.8, data: 98.0)
+ AHB bandwidth utilisation   :    8.3 % (inst:  4.7, data:  3.6)
+ Simulated time              :   6.62 s
+ Processor utilisation       :  23.76 %
+ Real-time performance       : 232.30 %
+ Simulator performance       :  15.54 MIPS
+ Used time (sys + user)      :   2.85 s
+
+
+Program received signal SIGINT, Interrupt.
+0x40003174 in __muldi3 (u=The value of variable 'u' is distributed across several
+locations, and GDB cannot access its value.
+
+) at ../../../../../gcc/libgcc/../gcc/libgcc2.c:556
+556	../../../../../gcc/libgcc/../gcc/libgcc2.c: No such file or directory.
+	in ../../../../../gcc/libgcc/../gcc/libgcc2.c
+
+Breakpoint 1, breakPoint (time=710) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 710
+
+ Cycles       : 356147466
+ Instructions :  47431449
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.17 MOPS (28.17 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.9 % (inst: 96.8, data: 98.1)
+ AHB bandwidth utilisation   :    8.2 % (inst:  4.7, data:  3.6)
+ Simulated time              :   7.12 s
+ Processor utilisation       :  23.64 %
+ Real-time performance       : 233.16 %
+ Simulator performance       :  15.53 MIPS
+ Used time (sys + user)      :   3.06 s
+
+
+Breakpoint 1, breakPoint (time=760) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 760
+
+ Cycles       : 381147771
+ Instructions :  50548024
+ Overall CPI  :      1.77
+
+ CPU performance (50.0 MHz)  :  28.17 MOPS (28.17 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.9 % (inst: 96.8, data: 98.1)
+ AHB bandwidth utilisation   :    8.2 % (inst:  4.6, data:  3.5)
+ Simulated time              :   7.62 s
+ Processor utilisation       :  23.54 %
+ Real-time performance       : 231.77 %
+ Simulator performance       :  15.37 MIPS
+ Used time (sys + user)      :   3.29 s
+
+
+Breakpoint 1, breakPoint (time=810) at ../src/TP4.c:207
+207		return test_count++;
+ ***** Aquisition ******
+ time = 810
+
+ Cycles       : 406145501
+ Instructions :  53662538
+ Overall CPI  :      1.77
+
+ CPU performance (50.0 MHz)  :  28.18 MOPS (28.18 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.9 % (inst: 96.8, data: 98.1)
+ AHB bandwidth utilisation   :    8.1 % (inst:  4.6, data:  3.5)
+ Simulated time              :   8.12 s
+ Processor utilisation       :  23.45 %
+ Real-time performance       : 229.53 %
+ Simulator performance       :  15.16 MIPS
+ Used time (sys + user)      :   3.54 s
+
+
+Program received signal SIGINT, Interrupt.
+0x40004168 in __pack_f (src=0x400507e0) at ../../.././gcc/fp-bit.c:228
+228	../../.././gcc/fp-bit.c: No such file or directory.
+	in ../../.././gcc/fp-bit.c

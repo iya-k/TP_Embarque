@@ -1,0 +1,332 @@
+__muldi3 (u=The value of variable 'u' is distributed across several
+locations, and GDB cannot access its value.
+
+) at ../../../../../gcc/libgcc/../gcc/libgcc2.c:555
+555	../../../../../gcc/libgcc/../gcc/libgcc2.c: No such file or directory.
+	in ../../../../../gcc/libgcc/../gcc/libgcc2.c
+Loading section .text, size 0x2c8d0 lma 0x40000000
+Loading section .data, size 0x17c0 lma 0x4002c8d0
+Loading section .jcr, size 0x4 lma 0x4002e090
+Start address 0x40000000, load size 188564
+Transfer rate: 1508512 bits/sec, 509 bytes/write.
+Hardware assisted breakpoint 1 at 0x40001380: file ../src/TP4.c, line 238.
+Function "main" not defined.
+
+Breakpoint 1, breakPoint (time=12) at ../src/TP4.c:238
+warning: Source file is more recent than executable.
+
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 12
+
+ Cycles       :   7106004
+ Instructions :   3800160
+ Overall CPI  :      1.87
+
+ CPU performance (50.0 MHz)  :  26.74 MOPS (26.74 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   95.8 % (inst: 95.8, data: 95.8)
+ AHB bandwidth utilisation   :   38.2 % (inst: 23.6, data: 14.6)
+ Simulated time              : 142.12 ms
+ Processor utilisation       : 100.00 %
+ Real-time performance       :  74.41 %
+ Simulator performance       :  19.90 MIPS
+ Used time (sys + user)      :   0.19 s
+
+
+Breakpoint 1, breakPoint (time=72) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 72
+
+ Cycles       :  37265462
+ Instructions :   6923637
+ Overall CPI  :      1.83
+
+ CPU performance (50.0 MHz)  :  27.38 MOPS (27.38 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.3 % (inst: 96.3, data: 96.8)
+ AHB bandwidth utilisation   :   12.4 % (inst:  7.4, data:  5.0)
+ Simulated time              : 745.31 ms
+ Processor utilisation       :  33.93 %
+ Real-time performance       : 184.03 %
+ Simulator performance       :  17.10 MIPS
+ Used time (sys + user)      :   0.40 s
+
+
+Breakpoint 1, breakPoint (time=132) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 132
+
+ Cycles       :  67265435
+ Instructions :  10046577
+ Overall CPI  :      1.81
+
+ CPU performance (50.0 MHz)  :  27.63 MOPS (27.63 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.5 % (inst: 96.4, data: 97.3)
+ AHB bandwidth utilisation   :    9.7 % (inst:  5.7, data:  4.0)
+ Simulated time              :   1.35 s
+ Processor utilisation       :  27.02 %
+ Real-time performance       : 216.64 %
+ Simulator performance       :  16.18 MIPS
+ Used time (sys + user)      :   0.62 s
+
+
+Breakpoint 1, breakPoint (time=192) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 192
+
+ Cycles       :  97264804
+ Instructions :  13167825
+ Overall CPI  :      1.80
+
+ CPU performance (50.0 MHz)  :  27.77 MOPS (27.77 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.6 % (inst: 96.5, data: 97.5)
+ AHB bandwidth utilisation   :    8.7 % (inst:  5.1, data:  3.6)
+ Simulated time              :   1.95 s
+ Processor utilisation       :  24.38 %
+ Real-time performance       : 226.20 %
+ Simulator performance       :  15.31 MIPS
+ Used time (sys + user)      :   0.86 s
+
+
+Breakpoint 1, breakPoint (time=252) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 252
+
+ Cycles       : 127269743
+ Instructions :  16295048
+ Overall CPI  :      1.80
+
+ CPU performance (50.0 MHz)  :  27.85 MOPS (27.85 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.6 % (inst: 96.6, data: 97.6)
+ AHB bandwidth utilisation   :    8.2 % (inst:  4.7, data:  3.4)
+ Simulated time              :   2.55 s
+ Processor utilisation       :  22.98 %
+ Real-time performance       : 240.36 %
+ Simulator performance       :  15.39 MIPS
+ Used time (sys + user)      :   1.06 s
+
+
+Breakpoint 1, breakPoint (time=312) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 312
+
+ Cycles       : 157268199
+ Instructions :  19421112
+ Overall CPI  :      1.79
+
+ CPU performance (50.0 MHz)  :  27.91 MOPS (27.91 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.7 % (inst: 96.6, data: 97.7)
+ AHB bandwidth utilisation   :    7.8 % (inst:  4.5, data:  3.3)
+ Simulated time              :   3.15 s
+ Processor utilisation       :  22.12 %
+ Real-time performance       : 247.08 %
+ Simulator performance       :  15.26 MIPS
+ Used time (sys + user)      :   1.27 s
+
+
+Breakpoint 1, breakPoint (time=372) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 372
+
+ Cycles       : 187269085
+ Instructions :  22547780
+ Overall CPI  :      1.79
+
+ CPU performance (50.0 MHz)  :  27.95 MOPS (27.95 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.7 % (inst: 96.6, data: 97.8)
+ AHB bandwidth utilisation   :    7.6 % (inst:  4.4, data:  3.2)
+ Simulated time              :   3.75 s
+ Processor utilisation       :  21.54 %
+ Real-time performance       : 249.69 %
+ Simulator performance       :  15.03 MIPS
+ Used time (sys + user)      :   1.50 s
+
+
+Breakpoint 1, breakPoint (time=432) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 432
+
+ Cycles       : 217269128
+ Instructions :  25674159
+ Overall CPI  :      1.79
+
+ CPU performance (50.0 MHz)  :  27.99 MOPS (27.99 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.7 % (inst: 96.7, data: 97.8)
+ AHB bandwidth utilisation   :    7.4 % (inst:  4.3, data:  3.2)
+ Simulated time              :   4.35 s
+ Processor utilisation       :  21.11 %
+ Real-time performance       : 252.49 %
+ Simulator performance       :  14.92 MIPS
+ Used time (sys + user)      :   1.72 s
+
+
+Breakpoint 1, breakPoint (time=492) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 492
+
+ Cycles       : 247267693
+ Instructions :  28799247
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.01 MOPS (28.01 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.7 % (inst: 96.7, data: 97.8)
+ AHB bandwidth utilisation   :    7.3 % (inst:  4.2, data:  3.1)
+ Simulated time              :   4.95 s
+ Processor utilisation       :  20.79 %
+ Real-time performance       : 257.70 %
+ Simulator performance       :  15.01 MIPS
+ Used time (sys + user)      :   1.92 s
+
+
+Breakpoint 1, breakPoint (time=552) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 552
+
+ Cycles       : 277270663
+ Instructions :  31926467
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.03 MOPS (28.03 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 97.9)
+ AHB bandwidth utilisation   :    7.2 % (inst:  4.1, data:  3.1)
+ Simulated time              :   5.55 s
+ Processor utilisation       :  20.54 %
+ Real-time performance       : 260.23 %
+ Simulator performance       :  14.98 MIPS
+ Used time (sys + user)      :   2.13 s
+
+
+Breakpoint 1, breakPoint (time=612) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 612
+
+ Cycles       : 307270276
+ Instructions :  35053372
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.05 MOPS (28.05 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 97.9)
+ AHB bandwidth utilisation   :    7.1 % (inst:  4.1, data:  3.1)
+ Simulated time              :   6.15 s
+ Processor utilisation       :  20.34 %
+ Real-time performance       : 262.51 %
+ Simulator performance       :  14.97 MIPS
+ Used time (sys + user)      :   2.34 s
+
+
+Breakpoint 1, breakPoint (time=672) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 672
+
+ Cycles       : 337270377
+ Instructions :  38179955
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.06 MOPS (28.06 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 97.9)
+ AHB bandwidth utilisation   :    7.1 % (inst:  4.0, data:  3.0)
+ Simulated time              :   6.75 s
+ Processor utilisation       :  20.17 %
+ Real-time performance       : 264.32 %
+ Simulator performance       :  14.96 MIPS
+ Used time (sys + user)      :   2.55 s
+
+
+Breakpoint 1, breakPoint (time=732) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 732
+
+ Cycles       : 367267775
+ Instructions :  41304569
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.07 MOPS (28.07 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 97.9)
+ AHB bandwidth utilisation   :    7.0 % (inst:  4.0, data:  3.0)
+ Simulated time              :   7.35 s
+ Processor utilisation       :  20.03 %
+ Real-time performance       : 266.14 %
+ Simulator performance       :  14.97 MIPS
+ Used time (sys + user)      :   2.76 s
+
+
+Breakpoint 1, breakPoint (time=792) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 792
+
+ Cycles       : 397268251
+ Instructions :  44429152
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.08 MOPS (28.08 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 97.9)
+ AHB bandwidth utilisation   :    7.0 % (inst:  4.0, data:  3.0)
+ Simulated time              :   7.95 s
+ Processor utilisation       :  19.91 %
+ Real-time performance       : 267.25 %
+ Simulator performance       :  14.94 MIPS
+ Used time (sys + user)      :   2.97 s
+
+
+Program received signal SIGINT, Interrupt.
+0x400042ac in __unpack_f (src=0x40050ba4, dst=0x40050b90)
+    at ../../.././gcc/fp-bit.c:524
+524	../../.././gcc/fp-bit.c: No such file or directory.
+	in ../../.././gcc/fp-bit.c
+
+Breakpoint 1, breakPoint (time=852) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 852
+
+ Cycles       : 427266059
+ Instructions :  47552305
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.09 MOPS (28.09 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 97.9)
+ AHB bandwidth utilisation   :    6.9 % (inst:  3.9, data:  3.0)
+ Simulated time              :   8.55 s
+ Processor utilisation       :  19.81 %
+ Real-time performance       : 267.21 %
+ Simulator performance       :  14.87 MIPS
+ Used time (sys + user)      :   3.20 s
+
+
+Breakpoint 1, breakPoint (time=912) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 912
+
+ Cycles       : 457266064
+ Instructions :  50675889
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.10 MOPS (28.10 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 98.0)
+ AHB bandwidth utilisation   :    6.9 % (inst:  3.9, data:  3.0)
+ Simulated time              :   9.15 s
+ Processor utilisation       :  19.72 %
+ Real-time performance       : 267.09 %
+ Simulator performance       :  14.80 MIPS
+ Used time (sys + user)      :   3.42 s
+
+
+Breakpoint 1, breakPoint (time=972) at ../src/TP4.c:238
+238			//status = rtems_message_queue_receive(message_queue_id_1, buffer, &size, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+ time = 972
+
+ Cycles       : 487263761
+ Instructions :  53797309
+ Overall CPI  :      1.78
+
+ CPU performance (50.0 MHz)  :  28.11 MOPS (28.11 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   96.8 % (inst: 96.7, data: 98.0)
+ AHB bandwidth utilisation   :    6.8 % (inst:  3.9, data:  3.0)
+ Simulated time              :   9.75 s
+ Processor utilisation       :  19.64 %
+ Real-time performance       : 268.84 %
+ Simulator performance       :  14.84 MIPS
+ Used time (sys + user)      :   3.62 s
+
+
+Program received signal SIGINT, Interrupt.
+__mulsf3 (arg_a=670.219666, arg_b=0.519999981) at ../../.././gcc/fp-bit.c:912
+912	../../.././gcc/fp-bit.c: No such file or directory.
+	in ../../.././gcc/fp-bit.c

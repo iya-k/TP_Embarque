@@ -1,0 +1,72 @@
+0x00000000 in ?? ()
+Loading section .text, size 0x5120 lma 0x40000000
+Loading section .data, size 0xa50 lma 0x40005120
+Start address 0x40000000, load size 23408
+Transfer rate: 187264 bits in <1 sec, 498 bytes/write.
+Hardware assisted breakpoint 1 at 0x40001c04: file ..\src\TP2.c, line 85.
+Breakpoint 2 at 0x40001c44: file ..\src\TP2.c, line 138.
+main () at ..\src\TP2.c:138
+138	}
+
+
+**** break = start ****time = 508
+
+
+**** break = calcul_centroide ****time = 1273
+
+ Cycles       :     63656
+ Instructions :     42275
+ Overall CPI  :      1.51
+
+ CPU performance (50.0 MHz)  :  33.21 MOPS (33.21 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   98.8 % (inst: 99.2, data: 92.3)
+ AHB bandwidth utilisation   :   18.0 % (inst:  3.9, data: 14.0)
+ Simulated time              :   1.27 ms
+ Processor utilisation       : 100.00 %
+ Real-time performance       :  31.83 %
+ Simulator performance       :  10.57 MIPS
+ Used time (sys + user)      :   0.00 s
+
+
+
+**** break = calcul_photometrie_ouverture ****time = 250
+
+ Cycles       :     12441
+ Instructions :      6877
+ Overall CPI  :      1.81
+
+ CPU performance (50.0 MHz)  :  27.64 MOPS (27.64 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   97.3 % (inst: 97.1, data: 99.6)
+ AHB bandwidth utilisation   :    4.5 % (inst:  1.9, data:  2.6)
+ Simulated time              :   0.25 ms
+ Processor utilisation       : 100.00 %
+ Real-time performance       :   1.#J %
+ Simulator performance       :   0.01 MIPS
+ Used time (sys + user)      :   0.00 s
+
+
+
+**** break = calcul_photometrie_pondere ****time = 384
+
+ Cycles       :     19224
+ Instructions :     13131
+ Overall CPI  :      1.46
+
+ CPU performance (50.0 MHz)  :  34.15 MOPS (34.15 MIPS, 0.00 MFLOPS)
+ Cache hit rate              :   99.7 % (inst: 99.7, data: 98.6)
+ AHB bandwidth utilisation   :    3.8 % (inst:  0.3, data:  3.5)
+ Simulated time              :   0.38 ms
+ Processor utilisation       : 100.00 %
+ Real-time performance       :   9.61 %
+ Simulator performance       :   3.28 MIPS
+ Used time (sys + user)      :   0.00 s
+
+
+
+**** break = end ****time = 2
+
+Program received signal SIGTERM, Terminated.
+start () at ../../../../../newlib-1.13.0/libgloss/sparc_leon/locore_mvt.S:129
+129	../../../../../newlib-1.13.0/libgloss/sparc_leon/locore_mvt.S: No such file or directory.
+	in ../../../../../newlib-1.13.0/libgloss/sparc_leon/locore_mvt.S
+Current language:  auto; currently asm

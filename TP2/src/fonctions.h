@@ -18,11 +18,11 @@ struct s{
 
 struct s calcul_barycentre(float * fenetre, float * mask);
 
-centroide();
+void centroide();
 
 float photometrie_ouverture(float * fenetre, float * mask, int size);
 
-photometrie_mask();
+void photometrie_mask();
 
 
 #endif /* FONCTIONS_H_ */

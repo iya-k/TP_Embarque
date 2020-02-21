@@ -1,20 +1,17 @@
 0x00000000 in ?? ()
-Loading section .text, size 0xba80 lma 0x40000000
-Loading section .data, size 0xae0 lma 0x4000ba80
-Start address 0x40000000, load size 50528
-Transfer rate: 404224 bits in <1 sec, 505 bytes/write.
-Hardware assisted breakpoint 1 at 0x400019cc: file ..\src\fibo.c, line 22.
-Hardware assisted breakpoint 2 at 0x400019b0: file ..\src\test.c, line 21.
-Breakpoint 3 at 0x40001b0c: file ..\src\TP1.c, line 17.
-main () at ..\src\TP1.c:17
-warning: Source file is more recent than executable.
-
-17		puts("!!!Hello all the World !!!");
-
-**** fibo() ****
+Loading section .text, size 0xbaa0 lma 0x40000000
+Loading section .data, size 0xae0 lma 0x4000baa0
+Start address 0x40000000, load size 50560
+Transfer rate: 404480 bits in <1 sec, 505 bytes/write.
+Hardware assisted breakpoint 1 at 0x400019b0: file ..\src\test.c, line 11.
+Hardware assisted breakpoint 2 at 0x40001ab0: file ..\src\display_fibo.c, line 12.
+Breakpoint 3 at 0x40001b1c: file ..\src\TP1.c, line 20.
+main () at ..\src\TP1.c:20
+20		puts("!!!Hello all the World !!!");
 
 **** test() ****
-$1 = {void (uint32_t *, uint32_t, uint32_t)} 0x400019bc <fibonacci>
+
+**** display_fibo() ****
 
 Program received signal SIGTERM, Terminated.
 start () at ../../../../../newlib-1.13.0/libgloss/sparc_leon/locore_mvt.S:129

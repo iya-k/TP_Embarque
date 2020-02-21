@@ -14,18 +14,18 @@ load
 
 mon perf reset
 
-hbreak fibonacci
-commands
-	silent
-	printf "\n**** fibo() ****\n"
-	cont
-end
-
 hbreak test
 commands
 	silent
 	printf "\n**** test() ****\n"
-	print fibonacci
+	cont
+end
+
+hbreak display_fibo
+commands
+	silent
+	printf "\n**** display_fibo() ****\n"
+	
 	cont
 end
 

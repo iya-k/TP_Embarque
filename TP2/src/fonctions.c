@@ -30,3 +30,12 @@ float photometrie_ouverture(float * f, float * m, int size){
 	return poids;
 
 }
+
+
+void centroide(){
+
+}
+
+void photometrie_mask(){
+
+}

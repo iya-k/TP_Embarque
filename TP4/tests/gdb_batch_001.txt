@@ -1,0 +1,37 @@
+set remotetimeout 10000
+
+set logging file C:/workspace/TP4/tests/gdb_result_001.txt 
+
+set logging overwrite on
+set logging on
+set height 0 
+set print pretty on 
+set print array on
+
+tar extended-remote localhost:1234
+
+load
+
+mon perf reset
+
+hbreak breakPoint
+commands
+	#silent
+	printf" ***** Aquisition ******\n"
+	printf" time = %d\n", time
+	mon perf
+	cont
+end
+
+#hbreak timer_1_entry
+#commands
+	#silent
+#	printf" ========= timer ====\n"
+#	mon perf
+#	cont
+#end
+
+start
+cont
+
+#detach

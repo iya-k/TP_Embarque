@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.bcc.exe.debug.2072299839">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.bcc.exe.debug.2072299839" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.bcc.exe.debug.2072299839" name="Debug" parent="cdt.managedbuild.config.bcc.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.bcc.exe.debug.2072299839." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.bcc.base.1315944790" name="SPARC Bare C" superClass="cdt.managedbuild.toolchain.bcc.base">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.bcc.platform.base.94004958" name="Debug Platform" osList="" superClass="cdt.managedbuild.target.bcc.platform.base"/>
+							<builder buildPath="${workspace_loc:/TP1}/Debug" id="cdt.managedbuild.target.bcc.builder.base.506592193" keepEnvironmentInBuildfile="false" name="BCC Make" superClass="cdt.managedbuild.target.bcc.builder.base"/>
+							<tool id="cdt.managedbuild.tool.bcc.cpp.compiler.base.1592205935" name="SPARC Bare C++ Compiler" superClass="cdt.managedbuild.tool.bcc.cpp.compiler.base">
+								<option id="bcc.cpp.compiler.option.optimization.level.738453515" name="Optimization Level" superClass="bcc.cpp.compiler.option.optimization.level" value="bcc.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="bcc.cpp.compiler.option.debugging.level.1159391211" name="Debug Level" superClass="bcc.cpp.compiler.option.debugging.level" value="bcc.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.bcc.c.compiler.base.1486650132" name="SPARC Bare C Compiler" superClass="cdt.managedbuild.tool.bcc.c.compiler.base">
+								<option defaultValue="bcc.c.optimization.level.none" id="bcc.c.compiler.option.optimization.level.1659722956" name="Optimization Level" superClass="bcc.c.compiler.option.optimization.level" value="bcc.c.optimization.level.most" valueType="enumerated"/>
+								<option id="bcc.c.compiler.option.debugging.level.554484653" name="Debug Level" superClass="bcc.c.compiler.option.debugging.level" value="bcc.c.debugging.level.max" valueType="enumerated"/>
+								<option id="bcc.c.compiler.option.misc.verbose.895360830" name="Verbose (-v)" superClass="bcc.c.compiler.option.misc.verbose" value="false" valueType="boolean"/>
+								<option id="bcc.c.compiler.option.hardware.softfloat.2138898648" name="Soft float (-msoft-float)" superClass="bcc.c.compiler.option.hardware.softfloat" value="false" valueType="boolean"/>
+								<option id="bcc.c.compiler.option.hardware.v8.1738253280" name="V8 Extension (-mcpu=v8)" superClass="bcc.c.compiler.option.hardware.v8" value="true" valueType="boolean"/>
+								<option id="bcc.c.compiler.option.hardware.flat.1655804433" name="Flat Register Window Model (-mflat)" superClass="bcc.c.compiler.option.hardware.flat" value="false" valueType="boolean"/>
+								<option id="bcc.c.compiler.option.optimization.flags.1486367653" name="Other optimization flags" superClass="bcc.c.compiler.option.optimization.flags" value="" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.base.c.compiler.input.c.402548225" superClass="cdt.managedbuild.tool.base.c.compiler.input.c"/>
+								<inputType id="cdt.managedbuild.tool.base.c.compiler.input.asm.1647385157" superClass="cdt.managedbuild.tool.base.c.compiler.input.asm"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.bcc.c.linker.base.1784423942" name="SPARC Bare C Linker" superClass="cdt.managedbuild.tool.bcc.c.linker.base">
+								<option id="bcc.c.link.option.misc.ldflags.1084213436" name="Linker flags" superClass="bcc.c.link.option.misc.ldflags" value="--verbose" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.base.c.linker.input.1390764351" superClass="cdt.managedbuild.tool.base.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.bcc.cpp.linker.base.920111719" name="SPARC Bare C++ Linker" superClass="cdt.managedbuild.tool.bcc.cpp.linker.base"/>
+							<tool id="cdt.managedbuild.tool.bcc.archiver.base.2082606643" name="SPARC Bare C Archiver" superClass="cdt.managedbuild.tool.bcc.archiver.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.bcc.exe.release.2099639951">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.bcc.exe.release.2099639951" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.bcc.exe.release.2099639951" name="Release" parent="cdt.managedbuild.config.bcc.exe.release">
+					<folderInfo id="cdt.managedbuild.config.bcc.exe.release.2099639951." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.bcc.exe.release.422154777" name="SPARC Bare C" superClass="cdt.managedbuild.toolchain.bcc.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.bcc.platform.exe.release.832388924" name="Debug Platform" superClass="cdt.managedbuild.target.bcc.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/TP1}/Release" id="cdt.managedbuild.target.bcc.builder.exe.release.784906972" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="BCC Make" superClass="cdt.managedbuild.target.bcc.builder.exe.release"/>
+							<tool id="cdt.managedbuild.tool.bcc.cpp.compiler.exe.release.557002164" name="SPARC Bare C++ Compiler" superClass="cdt.managedbuild.tool.bcc.cpp.compiler.exe.release">
+								<option id="bcc.cpp.compiler.exe.release.option.optimization.level.209770900" name="Optimization Level" superClass="bcc.cpp.compiler.exe.release.option.optimization.level" value="bcc.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="bcc.cpp.compiler.exe.release.option.debugging.level.2085247135" name="Debug Level" superClass="bcc.cpp.compiler.exe.release.option.debugging.level" value="bcc.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.bcc.c.compiler.exe.release.1817172041" name="SPARC Bare C Compiler" superClass="cdt.managedbuild.tool.bcc.c.compiler.exe.release">
+								<option defaultValue="bcc.c.optimization.level.most" id="bcc.c.compiler.exe.release.option.optimization.level.683416388" name="Optimization Level" superClass="bcc.c.compiler.exe.release.option.optimization.level" valueType="enumerated"/>
+								<option id="bcc.c.compiler.exe.release.option.debugging.level.363014127" name="Debug Level" superClass="bcc.c.compiler.exe.release.option.debugging.level" value="bcc.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.base.c.compiler.input.c.1273307475" superClass="cdt.managedbuild.tool.base.c.compiler.input.c"/>
+								<inputType id="cdt.managedbuild.tool.base.c.compiler.input.asm.1632017957" superClass="cdt.managedbuild.tool.base.c.compiler.input.asm"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.bcc.c.linker.exe.release.366346632" name="SPARC Bare C Linker" superClass="cdt.managedbuild.tool.bcc.c.linker.exe.release">
+								<inputType id="cdt.managedbuild.tool.base.c.linker.input.1937596435" superClass="cdt.managedbuild.tool.base.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.bcc.cpp.linker.exe.release.1031001370" name="SPARC Bare C++ Linker" superClass="cdt.managedbuild.tool.bcc.cpp.linker.exe.release"/>
+							<tool id="cdt.managedbuild.tool.bcc.archiver.base.276480089" name="SPARC Bare C Archiver" superClass="cdt.managedbuild.tool.bcc.archiver.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="TP1.cdt.managedbuild.target.bcc.exe.2124617246" name="Executable" projectType="cdt.managedbuild.target.bcc.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.bcc.exe.debug.2072299839;cdt.managedbuild.config.bcc.exe.debug.2072299839.;cdt.managedbuild.tool.bcc.c.compiler.exe.debug.1870706583;cdt.managedbuild.tool.base.c.compiler.input.c.923176876">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.bcc.exe.debug.2072299839;cdt.managedbuild.config.bcc.exe.debug.2072299839.;cdt.managedbuild.tool.bcc.c.compiler.exe.debug.1870706583;cdt.managedbuild.tool.base.c.compiler.input.asm.1106383878">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.bcc.exe.release.2099639951;cdt.managedbuild.config.bcc.exe.release.2099639951.;cdt.managedbuild.tool.bcc.c.compiler.exe.release.1817172041;cdt.managedbuild.tool.base.c.compiler.input.c.1273307475">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.bcc.exe.release.2099639951;cdt.managedbuild.config.bcc.exe.release.2099639951.;cdt.managedbuild.tool.bcc.c.compiler.exe.release.1817172041;cdt.managedbuild.tool.base.c.compiler.input.asm.1632017957">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/TP1"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/TP1"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
